@@ -5,6 +5,11 @@
        <title>Acelere sua carreira aqui e agora | Trybe</title>
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" media="all">
        <style>
+           * {
+              margin: 0;
+              padding: 0;
+           }
+
            body {
                font-family: Montserrat, sans-serif;
            }
@@ -25,12 +30,16 @@
                font-weight: 600;
                text-align: left;
                letter-spacing: -1px;
+               margin-top: 10px;
+               margin-bottom: 60px;
            }
 
            .section-title {
                line-height: 42px;
                font-weight: 600;
                font-size: 28px;
+               margin-top: 10px;
+               margin-bottom: 60px;
            }
 
            .testimonial-student {
@@ -52,74 +61,146 @@
                text-decoration: none;
                margin: 10px;
            }
+
+           #header {
+              background-image: url("images/smiling-image.jpg");
+              background-position: 50% 25%;
+              background-size: cover;
+              padding: 60px 30px 40px;
+           }
+
+           #header-content {
+               max-width: 660px;
+               margin-left: 75px;
+           }
+
+           #header-text {
+               max-width: 81%;
+               text-align: left;
+           }
+
+           #market {
+               padding: 6em 30px;
+               text-align: center;
+           }
+
+           #market-text {
+               padding: 0 95px;
+           }
+
+           #student-testimonial {
+               padding: 0em 30px 6em;
+           }
+
+           /* #student-testimonial-wrapper {
+
+           } */
+
+           .student-container {
+               width: 30%;
+               margin: 0 10px;
+               text-align: center;
+               display: inline-block;
+           }
+
+           .student-container p {
+               margin: 10px 0;
+           }
+
+           #learning {
+               padding: 6em 50px;
+               min-height: 350px;
+           }
+
+           #learning-left-div {
+                float: left;
+                margin-left: 60px;
+                max-width: 35%;
+           }
+
+           #learning-right-div {
+                float: right;
+                margin-right: 60px;
+           }
+
+           #learning ul li {
+               line-height: 2em;
+               font-size: 16px;
+               list-style-type: square;
+           }
+
        </style>
     </head>
     <body>
-        <h1 id="main-title">Sua carreira de sucesso em tecnologia começa aqui. Agora.</h1>
-        <img src="images/smiling-image.jpg" alt="Foto de um homem sorrindo" width="400px">
-        <p>Com atividades presenciais e online, mentorias individuais e desafios práticos,
-           a Trybe é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em até 12 meses.<br><br>
-
-           E o melhor?<strong>Você não paga nada até conseguir um trabalho com uma remuneração de, no mínimo, R$ 3.500,00 por mês.</strong> 
-        </p>
-        <h2 class="trybe-green section-title">A Trybe é para todos, inclusive para VOCÊ.</h2>
-        <p>
-        Para você que <strong>é estudante de computação</strong>, para você que <strong>se interessa pelo assunto</strong> e até mesmo para <strong>você que está pensando em mudar de carreira</strong> e ainda não conhece nada.
-        <br><br>
-        A Trybe funciona para <strong>qualquer pessoa</strong> que queira uma <strong>carreira de sucesso em tecnologia.</strong>
-        <br><br>
-        <strong>E QUE TENHA MUITA VONTADE E DEDICAÇÃO!</strong>
-        </p>
-        <img class="picture" src="images/conrado-medeiros.png" alt="Foto do Conrado Medeiros" width="100px">
-        <p class="testimonial-student">
-            <em>"Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."</em>
-        </p>
-        <h4 class="trybe-green">
-           Conrado Medeiros<br>
-‍           Aluno da Turma de Setembro - BH
-        </h4>
-        <img class="picture" src="images/gabriel-dos-santos.png" alt="Foto do Coruja" width="100px">
-        <p class="testimonial-student">
-            <em>"Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."</em>
-        </p>
-        <h4 class="trybe-green">
-           Gabriel dos Santos<br>
-‍           Aluno da Turma de Setembro - BH
-        </h4>
-        <img class="picture" src="images/anderson-bolivar.png" alt="Foto do Bolivar" width="100px">
-        <p class="testimonial-student">
-            <em>"Sou estudante de Engenharia Química e entrei na Trybe sem nenhuma experiência na área e estou animado para me tornar desenvolvedor."</em>
-        </p>
-        <h4 class="trybe-green">
-            Anderson Bolivar<br>
-            Aluno da Turma de Setembro - BH
-        </h4>
-        <h2 class="trybe-green section-title">Quem somos e por que estamos aqui?</h2>
-        <img class="picture" src="images/matheus-goyas.jpeg" alt="Foto do Goyas" width="100px">
-        <p>
-            <em>Fundamos a Trybe porque acreditamos que qualquer pessoa que tenha muita vontade de vencer, independente da formação ou da condição financeira, é capaz de ter uma carreira de sucesso.</em>
-        </p>
-        <h4 class="trybe-green">
-            Matheus Goyas,<br>
-            CEO e Co-fundador da Trybe
-        </h4>
-        <img class="picture" src="images/joao-daniel.jpg" alt="Foto do Topi" width="100px">
-        <p>
-            <em>Temos a premissa de fazer os estudantes viverem na prática desafios idênticos aos enfrentados na vida real. Nosso compromisso é tão grande com o sucesso, que a Trybe só ganha se os nossos estudantes estiverem ganhando bem.</em>
-        </p>
-        <h4 class="trybe-green">
-            João Duarte,<br>
-            CTO e Co-fundador da Trybe
-        </h4>
-        <h2 class="trybe-green section-title">Como é a formação?</h2>
-        <ul>
-            <li>Atividades <strong>online, offline e apoio individual</strong> para cada aluno</li>
-            <li>Experiência <strong>mão na massa</strong>, lidando com <strong>desafios e problemas reais</strong></li>
-            <li>Equipe dedicada a te ajudar a encontrar a <strong>oportunidade profissional perfeita para você</strong></li>
-            <li>Vivência das <strong>rotinas e processos reais</strong> de desenvolvimento das <strong>empresas de ponta</strong></li>
-        </ul>
-        <img src="images/learning-web.jpeg" alt="Duas pessoas aprendendo juntas com seus notebooks" width="300px">
-        <h3 class="trybe-green">Quer saber mais sobre nossa formação?</h3>
-        <a class="button" href="https://www.google.com/search?q=curriculo+trybe&oq=curriculo+trybe&aqs=chrome..69i57.1900j0j8&sourceid=chrome&ie=UTF-8" target="_blank">Faça o download do nosso currículo</a>
+        <div id="header">
+            <div id="header-content">
+                <h1 id="main-title">Sua carreira de sucesso em tecnologia começa aqui. Agora.</h1>
+                <p id="header-text">Com atividades presenciais e online, mentorias individuais e desafios práticos,
+                   a Trybe é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em até 12 meses.<br><br>
+        
+                   E o melhor?<strong>Você não paga nada até conseguir um trabalho com uma remuneração de, no mínimo, R$ 3.500,00 por mês.</strong> 
+                </p>
+            </div>
+        </div>
+        <div id="market">
+            <h2 class="trybe-green section-title">A Trybe é para todos, inclusive para VOCÊ.</h2>
+            <p>
+            <div id="market-text">
+                Para você que <strong>é estudante de computação</strong>, para você que <strong>se interessa pelo assunto</strong> e até mesmo para <strong>você que está pensando em mudar de carreira</strong> e ainda não conhece nada.
+                <br><br>
+                A Trybe funciona para <strong>qualquer pessoa</strong> que queira uma <strong>carreira de sucesso em tecnologia.</strong>
+                <br><br>
+                <strong>E QUE TENHA MUITA VONTADE E DEDICAÇÃO!</strong>
+                </p>
+            </div>
+        </div>
+        <div id="student-testimonial">
+            <div id="student-testimonial-wrapper">
+                <div class="student-container">
+                    <img class="picture" src="images/conrado-medeiros.png" alt="Foto do Conrado Medeiros" width="100px">
+                    <p class="testimonial-student">
+                        <em>"Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."</em>
+                    </p>
+                    <h4 class="trybe-green">
+                    Conrado Medeiros<br>
+            ‍           Aluno da Turma de Setembro - BH
+                    </h4>
+                </div>
+                <div class="student-container">
+                    <img class="picture" src="images/gabriel-dos-santos.png" alt="Foto do Coruja" width="100px">
+                    <p class="testimonial-student">
+                        <em>"Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."</em>
+                    </p>
+                    <h4 class="trybe-green">
+                    Gabriel dos Santos<br>
+            ‍           Aluno da Turma de Setembro - BH
+                    </h4>
+                </div>
+                <div class="student-container">
+                    <img class="picture" src="images/anderson-bolivar.png" alt="Foto do Bolivar" width="100px">
+                    <p class="testimonial-student">
+                        <em>"Sou estudante de Engenharia Química e entrei na Trybe sem nenhuma experiência na área e estou animado para me tornar desenvolvedor."</em>
+                    </p>
+                    <h4 class="trybe-green">
+                        Anderson Bolivar<br>
+                        Aluno da Turma de Setembro - BH
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div id="learning">
+            <div id="learning-left-div">  
+                <h2 class="trybe-green section-title">Como é a formação?</h2>
+                <ul>
+                    <li>Atividades <strong>online, offline e apoio individual</strong> para cada aluno</li>
+                    <li>Experiência <strong>mão na massa</strong>, lidando com <strong>desafios e problemas reais</strong></li>
+                    <li>Equipe dedicada a te ajudar a encontrar a <strong>oportunidade profissional perfeita para você</strong></li>
+                    <li>Vivência das <strong>rotinas e processos reais</strong> de desenvolvimento das <strong>empresas de ponta</strong></li>
+                </ul>
+            </div>  
+            <div id="learning-right-div">
+                <img src="images/learning-web.jpeg" alt="Duas pessoas aprendendo juntas com seus notebooks" width="500px">
+            </div>
+        </div>
     </body>
 </html>
